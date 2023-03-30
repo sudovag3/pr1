@@ -1,0 +1,15 @@
+{
+  "name": "pr1",
+  "version": "1.0.0",
+  "description": "Express.js server",
+  "main": "index.js",
+  "repository": "https://github.com/sudovag3/pr1.git",
+  "author": "sudovag3 <sudovae03@mail.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
