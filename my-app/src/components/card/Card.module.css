@@ -16,6 +16,15 @@
     color: #000000;
 }
 
+.info
+{
+    width:32vw;
+    font-size: 24px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
 
 .contentWrapper{
     position: absolute;
@@ -89,6 +98,17 @@
 }
 
 @media(max-width:920px){
+
+    .dinoo
+    {
+        height: 8vw;
+        width: 10vw;
+        position:relative;
+        top:8.7vw;
+        right:0.5vw;
+
+    }
+
     .contentName{
         /* 2021 FQ */
 
@@ -209,23 +229,26 @@
 
 .card{
 
-    margin-bottom: 10px;
+    border: solid 2px #000000;
+    border-radius: 1vw;
+    width: 79vw;
+    height: 12vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #CFF37D 0%, #7DE88C 100%);
+    padding-right: 1vw;
+}
 
-    position: relative;
-    width: 920px;
-    height: 200px;
-    left: 4px;
-    top: 16px;
-    overflow:hidden;
-    /* Gradient Positive 2 */
+.dinoo
+{
+    height: 8vw;
+    width: 10vw;
+    position:relative;
+    top:3.7vw;
 
-    background: white;
-    /* Black */
-
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    border-radius: 10px;
-    display: inline-block;
 }
 
 .adaptSolver{
@@ -239,26 +262,43 @@
 }
 
 .cardRed{
+    border: solid 2px #000000;
+    border-radius: 1vw;
+    width: 79vw;
+    height: 12vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 1vw;
     background: linear-gradient(90deg, #FFB199 0%, #FF0844 100%);
 }
 
 @media(max-width: 920px){
     .card{
-        position: relative;
-        width: 288px;
-        height: 391px;
-        left: 4px;
-        top: 16px;
-
-        overflow:hidden;
-        /* Black */
-
-        border: 1px solid #000000;
-        box-sizing: border-box;
-        border-radius: 10px;
-        background: white;
+        border: solid 2px #000000;
+        border-radius: 1vw;
+        width: 79vw;
+        height: 12vw;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background: linear-gradient(90deg, #CFF37D 0%, #7DE88C 100%);
+        padding-right: 1vw;
     }
 
+    .info
+    {
+        width:32vw;
+        font-size: 24px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
 
     .adaptSolver{
         position: absolute;
@@ -273,6 +313,16 @@
     }
 
     .cardRed{
-        background: linear-gradient(90deg, #FFB199 0%, #FF0844 100%);
+            border: solid 2px #000000;
+            border-radius: 1vw;
+            width: 79vw;
+            height: 12vw;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding-right: 1vw;
+            background: linear-gradient(90deg, #FFB199 0%, #FF0844 100%);
     }
 }
