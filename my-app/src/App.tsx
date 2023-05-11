@@ -1,4 +1,5 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+const logo = require("./logo.svg") as string;
 import './App.css';
 
 

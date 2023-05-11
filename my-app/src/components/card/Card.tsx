@@ -1,6 +1,6 @@
 import styles from "./Card.module.css"
 import {Image} from "./image/Image";
-import path from "./dinoo.svg"
+const path = require("./dinoo.svg") as string;
 
 export const Card = (props) =>{
     const {name,date,distance,size,isDangerous, displayTip}=props;
