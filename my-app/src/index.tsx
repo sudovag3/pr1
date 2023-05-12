@@ -3,24 +3,24 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {createBrowserRouter, RouterProvider} from "react-router-dom";
-import {Destroyment} from "./pages/Destroyment";
-import {Asteroid} from "./pages/Asteroid";
-import {Asteroids} from "./pages/Asteroids";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { Destroyment } from "./pages/Destroyment";
+import { Asteroid } from "./pages/Asteroid";
+import { Asteroids } from "./pages/Asteroids";
 
 
 const router = createBrowserRouter([
   {
     path: "/asteroids",
-    element: <Asteroids/>
+    element: <Asteroids />
   },
   {
     path: "/destroyment",
-    element: <Destroyment/>
+    element: <Destroyment />
   },
   {
     path: "/asteroid/:id",
-    element: <Asteroid/>
+    element: <Asteroid />
   }
 ])
 
@@ -28,7 +28,7 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router}/>
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

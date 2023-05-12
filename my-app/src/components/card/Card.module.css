@@ -1,78 +1,145 @@
-.contentName{
+.contentName {
+  position: absolute;
+  width: 11%;
+  height: 16%;
+  left: 37.7%;
+  top: 12%;
+
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 150%;
+  line-height: 150%;
+
+  text-decoration-line: underline;
+
+  color: #000000;
+}
+
+.info {
+  width: 32vw;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contentWrapper {
+  position: absolute;
+  width: 31.4%;
+  height: 44%;
+  left: 37.7%;
+  top: 36%;
+}
+
+.contentDate {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0px;
+
+  position: static;
+  width: 100%;
+  height: 27.27%;
+  left: 0px;
+  top: 0px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+.contentDistance {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0px;
+
+  position: static;
+  width: 100%;
+  height: 27.27%;
+  left: 0px;
+  top: 36.36%;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.contentSize {
+  /* Desktop Main Menu Item */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0px;
+
+  position: static;
+  width: 289px;
+  height: 24px;
+  left: 0px;
+  top: 64px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+@media (max-width: 920px) {
+  .dinoo {
+    height: 8vw;
+    width: 10vw;
+    position: relative;
+    top: 8.7vw;
+    right: 0.5vw;
+  }
+
+  .contentName {
+    /* 2021 FQ */
+
     position: absolute;
-    width: 11%;
-    height: 16%;
-    left: 37.7%;
-    top: 12%;
+    width: 110px;
+    height: 32px;
+    left: 16px;
+    top: 105px;
 
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: 700;
-    font-size: 150%;
-    line-height: 150%;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
 
     text-decoration-line: underline;
 
     color: #000000;
-}
+  }
 
-.info
-{
-    width:32vw;
-    font-size: 24px;
-    display:flex;
+  .contentWrapper {
+    /* Frame 2 */
+
+    /* Auto layout */
+
+    display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    padding: 0px;
 
-}
-
-.contentWrapper{
     position: absolute;
-    width: 31.4%;
-    height: 44%;
-    left: 37.7%;
-    top: 36%;
-}
+    width: 255px;
+    height: 88px;
+    left: 16px;
+    top: 161px;
+  }
 
-.contentDate{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    padding: 0px;
-
-    position: static;
-    width: 100%;
-    height: 27.27%;
-    left: 0px;
-    top: 0px;
-
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 8px 0px;
-}
-
-.contentDistance{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    padding: 0px;
-
-    position: static;
-    width: 100%;
-    height: 27.27%;
-    left: 0px;
-    top: 36.36%;
-
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin: 0px 0px;
-}
-
-.contentSize{
+  .contentDate {
     /* Desktop Main Menu Item */
 
     /* Auto layout */
@@ -83,11 +150,58 @@
     padding: 0px;
 
     position: static;
-    width: 289px;
+    width: 255px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 8px 0px;
+  }
+
+  .contentDistance {
+    /* Desktop Main Menu Item */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px;
+
+    position: static;
+    width: 255px;
+    height: 24px;
+    left: 0px;
+    top: 32px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 0px;
+  }
+
+  .contentSize {
+    /* Desktop Main Menu Item */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px;
+
+    position: static;
+    width: 255px;
     height: 24px;
     left: 0px;
     top: 64px;
-
 
     /* Inside auto layout */
 
@@ -95,140 +209,56 @@
     order: 2;
     flex-grow: 0;
     margin: 8px 0px;
+  }
 }
 
-@media(max-width:920px){
-
-    .dinoo
-    {
-        height: 8vw;
-        width: 10vw;
-        position:relative;
-        top:8.7vw;
-        right:0.5vw;
-
-    }
-
-    .contentName{
-        /* 2021 FQ */
-
-        position: absolute;
-        width: 110px;
-        height: 32px;
-        left: 16px;
-        top: 105px;
-
-        font-family: 'Helvetica';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 32px;
-        /* identical to box height, or 133% */
-
-        text-decoration-line: underline;
-
-        color: #000000;
-    }
-
-    .contentWrapper{
-        /* Frame 2 */
-
-
-        /* Auto layout */
-
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0px;
-
-        position: absolute;
-        width: 255px;
-        height: 88px;
-        left: 16px;
-        top: 161px;
-    }
-
-    .contentDate{
-        /* Desktop Main Menu Item */
-
-
-        /* Auto layout */
-
-        display: flex;
-        flex-direction: row;
-        align-items: flex-end;
-        padding: 0px;
-
-        position: static;
-        width: 255px;
-        height: 24px;
-        left: 0px;
-        top: 0px;
-
-
-        /* Inside auto layout */
-
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-        margin: 8px 0px;
-    }
-
-    .contentDistance{
-        /* Desktop Main Menu Item */
-
-
-        /* Auto layout */
-
-        display: flex;
-        flex-direction: row;
-        align-items: flex-end;
-        padding: 0px;
-
-        position: static;
-        width: 255px;
-        height: 24px;
-        left: 0px;
-        top: 32px;
-
-
-        /* Inside auto layout */
-
-        flex: none;
-        order: 1;
-        flex-grow: 0;
-        margin: 0px 0px;
-    }
-
-    .contentSize{
-        /* Desktop Main Menu Item */
-
-
-        /* Auto layout */
-
-        display: flex;
-        flex-direction: row;
-        align-items: flex-end;
-        padding: 0px;
-
-        position: static;
-        width: 255px;
-        height: 24px;
-        left: 0px;
-        top: 64px;
-
-
-        /* Inside auto layout */
-
-        flex: none;
-        order: 2;
-        flex-grow: 0;
-        margin: 8px 0px;
-    }
+.card {
+  border: solid 2px #000000;
+  border-radius: 1vw;
+  width: 79vw;
+  height: 12vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #cff37d 0%, #7de88c 100%);
+  padding-right: 1vw;
 }
 
-.card{
+.dinoo {
+  height: 8vw;
+  width: 10vw;
+  position: relative;
+  top: 3.7vw;
+}
 
+.adaptSolver {
+  position: relative;
+  width: 920px;
+  height: 200px;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(90deg, #cff37d 0%, #7de88c 100%);
+}
+
+.cardRed {
+  border: solid 2px #000000;
+  border-radius: 1vw;
+  width: 79vw;
+  height: 12vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 1vw;
+  background: linear-gradient(90deg, #ffb199 0%, #ff0844 100%);
+}
+
+@media (max-width: 920px) {
+  .card {
     border: solid 2px #000000;
     border-radius: 1vw;
     width: 79vw;
@@ -238,30 +268,31 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(90deg, #CFF37D 0%, #7DE88C 100%);
+    background: linear-gradient(90deg, #cff37d 0%, #7de88c 100%);
     padding-right: 1vw;
-}
+  }
 
-.dinoo
-{
-    height: 8vw;
-    width: 10vw;
-    position:relative;
-    top:3.7vw;
+  .info {
+    width: 32vw;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-}
-
-.adaptSolver{
-    position: relative;
-    width: 920px;
-    height: 200px;
+  .adaptSolver {
+    position: absolute;
+    width: 288px;
+    height: 145px;
     left: 0px;
     top: 0px;
 
-    background: linear-gradient(90deg, #CFF37D 0%, #7DE88C 100%);
-}
+    /* Gradient Positive 2 */
 
-.cardRed{
+    background: linear-gradient(90deg, #cff37d 0%, #7de88c 100%);
+  }
+
+  .cardRed {
     border: solid 2px #000000;
     border-radius: 1vw;
     width: 79vw;
@@ -272,57 +303,6 @@
     align-items: center;
     justify-content: space-between;
     padding-right: 1vw;
-    background: linear-gradient(90deg, #FFB199 0%, #FF0844 100%);
-}
-
-@media(max-width: 920px){
-    .card{
-        border: solid 2px #000000;
-        border-radius: 1vw;
-        width: 79vw;
-        height: 12vw;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        background: linear-gradient(90deg, #CFF37D 0%, #7DE88C 100%);
-        padding-right: 1vw;
-    }
-
-    .info
-    {
-        width:32vw;
-        font-size: 24px;
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-
-    }
-
-    .adaptSolver{
-        position: absolute;
-        width: 288px;
-        height: 145px;
-        left: 0px;
-        top: 0px;
-
-        /* Gradient Positive 2 */
-
-        background: linear-gradient(90deg, #CFF37D 0%, #7DE88C 100%);
-    }
-
-    .cardRed{
-            border: solid 2px #000000;
-            border-radius: 1vw;
-            width: 79vw;
-            height: 12vw;
-            margin: 0 auto;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-between;
-            padding-right: 1vw;
-            background: linear-gradient(90deg, #FFB199 0%, #FF0844 100%);
-    }
+    background: linear-gradient(90deg, #ffb199 0%, #ff0844 100%);
+  }
 }
