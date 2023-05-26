@@ -1,6 +1,8 @@
 import styles from "./Card.module.css"
 import { Image } from "./image/Image";
 const path = require("./dinoo.svg") as string;
+import React from 'react';
+
 
 export const Card = (props) => {
     const { name, date, distance, size, isDangerous, displayTip } = props;
@@ -23,3 +25,6 @@ const distanceDisplay = (displayTip, distance) => {
     else
         return `${(distance / 384400).toFixed(2)} расстояний до луны`
 }
+
+
+export default React.memo(Card);
