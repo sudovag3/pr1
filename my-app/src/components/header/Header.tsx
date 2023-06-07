@@ -1,5 +1,6 @@
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import styles from './Header.module.css'
+import React from "react";
 export const Header = () => {
     return <div className={"styles.container"}>
         <div>
@@ -12,3 +13,5 @@ export const Header = () => {
         </div>
     </div>
 }
+
+export default React.memo(Header);
